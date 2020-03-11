@@ -1,18 +1,19 @@
 on:
-    push:
-      # Sequence of patterns matched against refs/tags
-      tags:
-        - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
-  
-  name: Zip and Create Release
-  
-  jobs:
+  push:
+    # Sequence of patterns matched against refs/tags
+    tags:
+      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+
+name: Zip and Create Release
+
+jobs:
+  release:
     name: Create Archive
-        runs-on: ubuntu-latest
-        steps:
-        - uses: actions/checkout@master
-        - name: Archive Release
-          uses: thedoctor0/zip-release@master
-          with:
-            filename: 'release.zip'
-            exclusions: '*.git* /*node_modules/* .editorconfig'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Archive Release
+        uses: thedoctor0/zip-release@master
+        with:
+          filename: 'release.zip'
+          exclusions: '*.git* /*node_modules/* .editorconfig'
