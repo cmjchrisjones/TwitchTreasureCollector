@@ -6,6 +6,7 @@
   - [The problem](#the-problem)
   - [The solution](#the-solution)
   - [Browser Extension Icon](#browser-extension-icon)
+  - [Installation](#installation)
   - [Browser Support](#browser-support)
 ## Background
 
@@ -36,14 +37,21 @@ With TwitchTreasureCollector, you no longer need to worry about missing that bon
 |![InactiveIcon](inactive.png)|Current tab isn't Twitch!|
 |![ActiveIcon](activeIcon.png)|You're on a Twitch channel - we'll collect those extra points for you!|
 
-## Browser Support
+## Installation
 
+Until the extension becomes available on the browser web stores, in the meantime, you can install the app by enabling developer mode and loading an unpacked extension.
+
+- Firefox: [https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/)
+- Chrome: [https://developer.chrome.com/extensions/getstarted](https://developer.chrome.com/extensions/getstarted#manifest)
+- Edge [https://docs.microsoft.com/en-us/microsoft-edge/extensions-chromium/getting-started/part1-simple-extension#run-your-extension-locally-in-your-browser-while-developing-it-side-loading](https://docs.microsoft.com/en-us/microsoft-edge/extensions-chromium/getting-started/part1-simple-extension#run-your-extension-locally-in-your-browser-while-developing-it-side-loading)
+  
+## Browser Support
 
 |OS|Browser|Status|
 |:-:|:-:|:-:|
 |Windows|Edge (Chromium) | ✔ |
 |Windows| Chrome | ✔ |
-|Windows| Firefox | ⚠ |
+|Windows| Firefox | ✔ |
 |Mac OS| Safari | ⚠ |
 |Mac OS| Firefox | ⚠ |
 |Mac OS| Chrome | ⚠ |
