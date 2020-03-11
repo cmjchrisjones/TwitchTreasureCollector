@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Twitch Treasure Collector (Channel Points)",
+    "description": "Never miss claiming those bonus channel points",
+    "browser_action": {},
+    "icons": {
+        "128": "./1x/Logo-8.png"
+    },
+    "author": "Chris Jones, Brett Miller",
+    "permissions": [
+        "tabs",
+        "*://*.twitch.tv/*"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.twitch.tv/*"
+            ],
+            "js": [
+                "collector.js"
+            ]
+        }
+    ]
+}
