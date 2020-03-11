@@ -1,4 +1,6 @@
-#  Twitch Treasure Collector
+#  Twitch Treasure Collector 
+
+![](./1x/Logo-8.png)
 
 - [Twitch Treasure Collector](#twitch-treasure-collector)
   - [Background](#background)
