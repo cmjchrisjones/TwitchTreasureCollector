@@ -24,7 +24,7 @@ Occasionally, so called 'click-to-claim' bonuses are offered to viewers.
 
 ## The problem
 
-What if you were watching, but something urgent comes up, EG, a knock on the door, your kid starts crying - you miss out on this bonuses... 
+What if you were watching, but something urgent comes up, EG, a knock on the door, your kid starts crying - you miss out on those bonuses... 
 
 Well, not any more! 
 
