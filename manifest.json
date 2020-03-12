@@ -2,12 +2,14 @@
     "manifest_version": 2,
     "version": "1.0",
     "name": "Twitch Treasure Collector (Channel Points)",
-    "description": "Never miss claiming those bonus channel points",
+    "description": "Never miss a Twitch.TV channel points bonus again. Regular viewer on Twitch channels? Streamer offer channel points? Claim when AFK",
     "browser_action": {},
     "icons": {
+        "16": "./1x/Logo-8.png",
+        "48": "./1x/Logo-8.png",
         "128": "./1x/Logo-8.png"
     },
-    "author": "Chris Jones, Brett Miller",
+    "author": "Chris Jones, Brett Miller, CorBob",
     "permissions": [
         "tabs",
         "*://*.twitch.tv/*"

@@ -9,7 +9,7 @@ function startCollecting() {
         if (chest.length > 0) {
             chest[0].parentElement.parentElement.click()
         }
-        console.log(`Timer fired: ${Date.now()}`);
+        console.log(`Timer fired: ${new Date()}`);
     }, 60000);
 }
 
